@@ -13,6 +13,11 @@ header{
     height: 70px;
 }
 
+main{
+    
+}
+
+
 nav{
     display: flex;
     align-items: center;
@@ -32,6 +37,11 @@ footer{
     justify-content: center;
 }
 
-#about-us-page {
+#about-us-page{
     font-size: 3000pt;
+}
+
+.categorie{
+    display: flex;
+    font-size: 16pt;
 }
