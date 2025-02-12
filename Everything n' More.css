@@ -13,9 +13,27 @@ header{
     height: 70px;
 }
 
+#Category-Text{
+    display: flex;
+    font-size: 25pt;
+    width: 1050px;
+    background: #ff00dd;
+    border-radius: 40px;
+    height: 120px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+}
+
 main{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -33,7 +51,7 @@ nav a{
 }
 
 #about-us-page{
-    font-size: 3000pt;
+    font-size: 16pt;
 }
 
 .categorie{
@@ -43,8 +61,8 @@ nav a{
     background: #ff00dd;
     width: 450px;
     align-items: center;
-    height: 500px;
-    margin-top: 80px;
+    height: 530px;
+    margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 40px;
@@ -52,6 +70,7 @@ nav a{
 
 .categorie-img{
     height: 350px;
+    margin-bottom: 20px;
 }
 
 footer{
