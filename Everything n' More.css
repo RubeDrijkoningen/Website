@@ -22,6 +22,8 @@ header{
     height: 120px;
     align-items: center;
     margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 article{
