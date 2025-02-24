@@ -1,6 +1,6 @@
 body{
     font-family: verdana, sans-serif;
-    background: #292929;
+    background: #FFFFFF;
     margin: 0px;
     display: flex;
     flex-direction: row;
@@ -12,11 +12,12 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #232323;
+    background: #2E2E2E;
     font-size: 25pt;
     height: 70px;
     color: #FFFFFF;
     width: 30%;
+    font-weight: bold;
 }
 
 #Category-Text{
@@ -50,25 +51,32 @@ article{
     margin-bottom: 50px;
     margin-left: 100px;
     margin-right: 100px;
-    background: #D3D9D4;
+    background: #D6D6D6;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
+    border: 10px solid #CFCFCF;
 }
 
 nav{
     display: flex;
     align-items: center;
-    justify-content: center;
     height: 70px;
     font-size: 18pt;
-    background: #232323;
+    background: #2E2E2E;
     width: 70%;
+    justify-content: space-evenly;
+    font-weight: bold;
 }
 
 nav a{
     text-decoration: none;
+    color: #FFFFFF;
+    
+}
+nav a:hover {
+    background: #383838;
 }
 
 main a{
@@ -106,6 +114,8 @@ footer{
     font-size: 15pt;
     margin-top: 40px;
     background: #232323;
+    color: #FFFFFF;
     width: 100%;
+    font-weight: bold;
 }
 
