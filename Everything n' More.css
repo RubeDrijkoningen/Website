@@ -1,10 +1,7 @@
 body{
     font-family: verdana, sans-serif;
-    background: #2D3748;
+    background: #292929;
     margin: 0px;
-}
-
-#Homepage-Body{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -15,7 +12,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1B2432;
+    background: #232323;
     font-size: 25pt;
     height: 70px;
     color: #FFFFFF;
@@ -26,7 +23,7 @@ header{
     display: flex;
     font-size: 25pt;
     width: 1050px;
-    background: #4A4E57;
+    background: #454692;
     border-radius: 40px;
     height: 120px;
     align-items: center;
@@ -53,7 +50,7 @@ article{
     margin-bottom: 50px;
     margin-left: 100px;
     margin-right: 100px;
-    background: #ff00dd;
+    background: #D3D9D4;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
@@ -66,7 +63,7 @@ nav{
     justify-content: center;
     height: 70px;
     font-size: 18pt;
-    background: #1B2432;
+    background: #232323;
     width: 70%;
 }
 
@@ -86,7 +83,7 @@ main a{
     display: flex;
     flex-direction: column;
     font-size: 16pt;
-    background: #A0A5A8;
+    background: #6264bb;
     width: 450px;
     align-items: center;
     height: 530px;
@@ -107,6 +104,8 @@ footer{
     justify-content: center;
     height: 50px;
     font-size: 15pt;
-    margin-top: 20px;
+    margin-top: 40px;
+    background: #232323;
+    width: 100%;
 }
 
