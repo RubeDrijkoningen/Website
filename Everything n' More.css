@@ -84,7 +84,29 @@ main a{
 }
 
 #about-us-page{
-    font-size: 16pt;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: #D6D6D6;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px solid #CFCFCF;
+}
+
+#contact-us-page{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background: #D6D6D6;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px solid #CFCFCF;
 }
 
 .categorie{
