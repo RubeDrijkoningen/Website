@@ -129,6 +129,26 @@ main a{
     margin-bottom: 20px;
 }
 
+.Item-Main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Item-Img{
+    height: 200px;
+}
+
+.Item-Description{
+    width: 500px;
+    background: #D6D6D6;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 10px solid #CFCFCF
+}
+
 footer{
     display: flex;
     align-items: center;
