@@ -48,7 +48,7 @@ article{
 
 #FAQ-Page{
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     margin-left: 100px;
     margin-right: 100px;
     background: #D6D6D6;
@@ -79,13 +79,20 @@ nav a:hover {
     background: #383838;
 }
 
+.Back-Arrow{
+    height: 40px;
+}
+
+main{
+    margin-bottom: 70px;
+}
+
 main a{
     text-decoration: none;
 }
 
 #about-us-page{
     margin-top: 50px;
-    margin-bottom: 50px;
     margin-left: 100px;
     margin-right: 100px;
     background: #D6D6D6;
@@ -94,11 +101,12 @@ main a{
     padding-top: 20px;
     padding-bottom: 20px;
     border: 10px solid #CFCFCF;
+    margin-bottom: 70px;
 }
 
 #contact-us-page{
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     margin-left: 100px;
     margin-right: 100px;
     background: #D6D6D6;
@@ -126,7 +134,8 @@ main a{
 
 .categorie-img{
     height: 350px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 50px;
 }
 
 .Item-Main{
@@ -135,8 +144,13 @@ main a{
     flex-wrap: wrap;
 }
 
+.Item-Info{
+    display: flex;
+    flex-direction: column;
+}
+
 .Item-Img{
-    height: 200px;
+    height: 400px;
 }
 
 .Item-Description{
@@ -155,10 +169,11 @@ footer{
     justify-content: center;
     height: 50px;
     font-size: 15pt;
-    margin-top: 40px;
     background: #232323;
     color: #FFFFFF;
     width: 100%;
     font-weight: bold;
+    position: fixed;
+    bottom: 0;
 }
 
