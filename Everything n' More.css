@@ -86,7 +86,7 @@ nav a:hover {
 }
 
 main{
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 main a{
@@ -148,20 +148,35 @@ main a{
 .Item-Info{
     display: flex;
     flex-direction: column;
+    margin-left: 70px;
+    margin-top: 50px;
+    background: #6264bb;
+    border-radius: 40px;
+    border: 7px solid #383838;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .Item-Img{
-    height: 400px;
+    width: 400px;
 }
 
 .Item-Description{
+    display: flex;
+    flex-direction: column;
     width: 500px;
     background: #D6D6D6;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 10px solid #CFCFCF
+    border: 10px solid #CFCFCF;
+    position: absolute;
+    right: 0;
+    margin-top: 50px;
+    margin-right: 70px;
 }
 
 footer{
