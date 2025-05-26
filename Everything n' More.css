@@ -1,6 +1,6 @@
 body{
     font-family: verdana, sans-serif;
-    background: #FFFFFF;
+    background: #b3b4fd;
     margin: 0px;
 }
 
@@ -8,7 +8,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #2E2E2E;
+    background: #2f2f5c;
     font-size: 25pt;
     height: 70px;
     color: #FFFFFF;
@@ -47,12 +47,12 @@ article{
     margin-bottom: 70px;
     margin-left: 100px;
     margin-right: 100px;
-    background: #D6D6D6;
+    background: #7274cf;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 10px solid #CFCFCF;
+    border: 10px solid #383838;
 }
 
 nav{
@@ -60,7 +60,7 @@ nav{
     align-items: center;
     height: 70px;
     font-size: 18pt;
-    background: #2E2E2E;
+    background: #2f2f5c;
     width: 70%;
     justify-content: space-evenly;
     font-weight: bold;
@@ -72,7 +72,7 @@ nav a{
 }
 
 nav a:hover {
-    background: #383838;
+    background: #242449;
 }
 
 .Back-Arrow{
@@ -91,18 +91,27 @@ main{
 
 main a{
     text-decoration: none;
+    color: #033977;
+}
+
+main a:hover{
+    color: #032750;
+}
+
+main a:active{
+    color: #242449;
 }
 
 #about-us-page{
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
-    background: #D6D6D6;
+    background: #7274cf;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 10px solid #CFCFCF;
+    border: 10px solid #383838;
     margin-bottom: 70px;
 }
 
@@ -111,19 +120,19 @@ main a{
     margin-bottom: 70px;
     margin-left: 100px;
     margin-right: 100px;
-    background: #D6D6D6;
+    background: #7274cf;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 10px solid #CFCFCF;
+    border: 10px solid #383838;
 }
 
 .categorie{
     display: flex;
     flex-direction: column;
     font-size: 16pt;
-    background: #6264bb;
+    background: #7274cf;
     width: 450px;
     align-items: center;
     height: 530px;
@@ -150,7 +159,7 @@ main a{
     flex-direction: column;
     margin-left: 70px;
     margin-top: 50px;
-    background: #6264bb;
+    background: #7274cf;
     border-radius: 40px;
     border: 7px solid #383838;
     padding-top: 50px;
@@ -166,16 +175,16 @@ main a{
 .Item-Description{
     display: flex;
     flex-direction: column;
-    width: 500px;
-    background: #D6D6D6;
+    width: 55%;
+    background: #7274cf;
     padding-left: 40px;
     padding-right: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border: 10px solid #CFCFCF;
+    border: 10px solid #383838;
     position: absolute;
     right: 0;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-right: 70px;
 }
 
@@ -185,7 +194,7 @@ footer{
     justify-content: center;
     height: 50px;
     font-size: 15pt;
-    background: #232323;
+    background: #2f2f5c;
     color: #FFFFFF;
     width: 100%;
     font-weight: bold;
